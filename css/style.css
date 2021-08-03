@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+/* Definindo o novo estilo da fonte */
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url('../fonts/source-sans-pro/SourceSansPro-Regular.otf');
+}
+
+/* Definindo o novo estilo da fonte */
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url('../fonts/source-sans-pro/SourceSansPro-Bold.otf');
+    font-weight: bold;
+}
+
+/* Criando regra para poder utilizar a nova fonte */
+body{
+    font-family: "Source Sans Pro";
+}
+
+.cabecalho{
+    background: white;
+}
+
+.logo{
+    background-image: url("../img/logotipo-preto.png");
+    background-repeat: no-repeat;
+    display: block;
+    width: 120px;
+    height: 53px;
+    text-indent: -9999px;/* Faz o texto sumir da caixa que ele está contido*/
+    margin: 0;
+}
